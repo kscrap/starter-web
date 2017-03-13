@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    KScrap kcsapp@ballerstatus.com  @strangler_fish
 
 # THANKS
 
