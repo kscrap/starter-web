@@ -1,0 +1,23 @@
+		h1		{
+					color:rgb(15,70,150);
+					font-family: Georgia, times, serif;
+					font-size: 24pt;
+				}
+		h2		{
+					color:rgb(10,50,100);
+					font-family: Georgia, times, serif;
+				}
+		p		{
+					color:rgb(0,0,185);
+					font-family: arial, verdana, sans-serif;
+					font-size: 10pt;
+				}
+		#footer	{
+					font-family: arial, verdana, sans-serif;
+					font-size: 8pt;
+				}
+		.smaller{
+					color:rgb(10,10,40);
+					font-size: 4pt;
+				}
+		</style>
