@@ -1,0 +1,63 @@
+		h1		{
+					padding-top: 30px;
+					color: black;
+					font-family: Georgia, times, serif;
+					font-size: 24pt;
+					text-align: center;
+					font-variant: small-caps;
+				}
+		h2		{
+					color:rgb(10,50,100);
+					font-family: Georgia, times, serif;
+					text-align: center;
+					font-size: 18pt;
+					text-transform: uppercase;
+				}
+		h3		{
+					color:rgb(10,50,100);
+					font-family: Georgia, times, serif;
+					text-align: center;
+					font-size: 14pt;
+					text-transform: lowercase;
+				}
+		table	{
+					font-family: arial;
+					border: 2px solid;
+					border-collapse: collapse;
+				}
+		th, td	{
+					border: 1px solid;
+					
+				}
+		ol		{
+					list-style-type: i;
+					padding: 10px;
+					margin: 10px;
+				}
+		ul		{
+					list-style-type: square;
+					padding: 10px;
+					margin: 10px;
+				}
+		p		{
+					color:rgb(0,0,185);
+					font-family: arial, verdana, sans-serif;
+					font-size: 10pt;
+					text-align: justify;
+					text-indent: 20px;
+				}
+		img		{
+				border: 0px;
+				img-align: center;
+				}
+		#footer	{
+					font-family: arial, verdana, sans-serif;
+					font-size: 8pt;
+					text-align: right;
+					text-decoration: overline;
+				}
+		.smaller{
+					color:rgb(10,10,40);
+					font-size: 4pt;
+				}
+		</style>
