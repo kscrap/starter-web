@@ -20,6 +20,10 @@
 					font-size: 14pt;
 					text-transform: lowercase;
 				}
+		#box	{
+					width: 37x
+					border: 1px black solid;
+				}	
 		table	{
 					font-family: arial;
 					border: 2px solid;

@@ -6,7 +6,20 @@
 		<link rel="stylesheet" type="text/css" href="intro.css" />
 	</head>
 	<body>
-		<h1>Ray Them Dan!</h1>
+		<style>
+			#container
+			{
+				width: 960px;
+			}
+			#box2	{
+						width: 375px;
+						border: 1px red solid;
+						background-color: #cccccc;
+					}
+			
+		</style>
+		<div id="container">	
+		<div id="box2"><h1>Ray Them Dan! And a whole lot of other text! More text than you would really expect to see in a box like this</h1></div>
 				
 			<table>
 				<tr>
@@ -21,12 +34,51 @@
 		
 				</tr>
 				</table>
-			
-
+	<style>
+		body	{
+					margin:0px;
+				}
+		#box	{
+					overflow: scroll;
+					display: inline;
+					width:370px;
+					border: 1px black solid;
+					margin: 0px;
+					position: fixed;
+					top: 5px;
+					left: 100px;
+				}
+	</style>
+	<div id="box">
+	Hamburger Meat Gradient abstraction canvas prestige brick suitcase in a hamper tabular rosa. </div>
+	
 ​  <p align="center"> Ray Them Dan! is a music project that began with a series of recordings done in Los Angeles in 2013. 
 
 		<form action="#" method="post">
-			<table>
+		Color:
+			<input type="color name="color"/>
+			<br/>Date of Birth
+			<input type="date" name="dob" />
+			<br />Time of Appointment:
+			<input type="time" name="timeofAppointment"/>
+			<br />Email:
+			<input type="email" name="email"/>
+			<br />Telephone:
+			<input type="tel" name="telephone" /><br/>
+				Choose your favorite food: <br/>
+		<select name="food" size="5" multiple="multiple">
+			
+			<option value="chinese">Chinese</option>
+			<option value="Turkish">Turkish</option>
+			<option value="Mexican">Mexican</option>
+			<option value="Indian">Indian</option>
+			<option value="Indian">American</option>
+			<option value="Indian">Japanese</option>
+			<option value="Indian">Thai</option>
+		</select>
+			
+			
+		<table>
 			<tr>
 				<td>First Name:</td>
 				<td><input type="text" name="first" id="first"/></td>
@@ -58,12 +110,12 @@
 				</td>
 			</tr>
 			<tr>
-				<td valign="top">Bands you like</td>
-				<td><input type="checkbox" value="journey" name="bands"/>Smashing Pumpkins<br/>
-				<td><input type="checkbox" value="journey" name="bands"/>Cinematic Orchestra<br/>
-				<td><input type="checkbox" value="journey" name="bands"/>Third Eye Blind<br/>
-				<td><input type="checkbox" value="journey" name="bands"/>Glitch Mob<br/>
-				<td><input type="checkbox" value="journey" name="bands"/>Aesop Rock<br/>
+				<td>Bands you like</td>
+				<td><input type="checkbox" value="Smashing Pumpkins" name="bands"/>Smashing Pumpkins<br/>
+				<td><input type="checkbox" value="Cinematic Orchestra" name="bands"/>Cinematic Orchestra<br/>
+				<td><input type="checkbox" value="Third Eye Blind" name="bands"/>Third Eye Blind<br/>
+				<td><input type="checkbox" value="Glitch Mob" name="bands"/>Glitch Mob<br/>
+				<td><input type="checkbox" value="Aesop Rock" name="bands"/>Aesop Rock<br/>
 			</td>
 			<tr>
 				<td><input type="reset" /></td>
@@ -78,6 +130,8 @@
 		
 
 		
-	<div id="footer">Copyright2017 | ApertureScientist </div>
+	<div id="footer">Copyright2017 | ApertureScientist
+	</div><!--end footer-->
+	</div><!--closing container div-->
 	</body>
 </html>
