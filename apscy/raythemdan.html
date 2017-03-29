@@ -7,62 +7,97 @@
 	</head>
 	<body>
 		<style>
+			ul
+					{
+						list-style-type: none;
+						margin: 0px;
+						padding: 0px;
+					}
+			li a:link, li a:visited
+					{
+						text-decoration: none;
+						color: black;
+					}
+			li		{
+						display: inline;
+						padding-top: 15px;
+						padding-bottom: 15px;
+						padding-left:15px;
+						padding-right:15x;
+						background-color: #eeeeee;
+						font-weight: bold;
+						align: center;
+					}
+			li:hover		
+					{
+						background-color: blue;
+						
+					}
+			
 			#container
-			{
-				width: 960px;
-			}
+					{
+						width: 960px;
+						background-color: #dddddd;
+						margin: 0 auto;
+					}
 			#box2	{
 						width: 375px;
 						border: 1px red solid;
 						background-color: #cccccc;
+						
 					}
+				
+			body	{
+						margin:0px;
+					}
+			#box	{
+						overflow: scroll;
+						display: inline;
+						width:370px;
+						border: 1px black solid;
+						top: 5px;
+						left: 100px;
+						float: right;
+					}
+			#footer {
+						color: white;
+						background-color: black;
+						
+					}
+	</style>
 			
 		</style>
 		<div id="container">	
 		<div id="box2"><h1>Ray Them Dan! And a whole lot of other text! More text than you would really expect to see in a box like this</h1></div>
 				
-			<table>
-				<tr>
-				<th>	<a href="http://www.ApertureScientist.com">Home</a> </th>
-				<th>	<a href="http://www.ApertureScientist.com/photography.html">Photography</a>  </th>
-				<th>	<a href="http://www.ProblematicSatisfaction.com">Blog</a>  </th>
-				<th>	<a href="http://www.LFTID.com">Book</a> </th>
-				<th>	<a href="http://www.raythemdan.com">Music</a> </th>
-				<th>	<a href="http://www.ApertureScientist.com/friends.html">Friends</a> </th>
-				<th>	<a href="http://www.aperturescientist.com/adopt.html">Adopt</a> </th>
-				<th>	<a href="http://www.ApertureScientist.com/wares.html">Wares</a></th>
+			<ul>
+				
+				<li>	<a href="http://www.ApertureScientist.com/photography.html">Photography</a>  </li>
+				<li>	<a href="http://www.ProblematicSatisfaction.com">Blog</a>  </li>
+				<li>	<a href="http://www.LFTID.com">Book</a> </li>
+				<li>	<a href="http://www.raythemdan.com">Music</a> </li>
+				<li>	<a href="http://www.ApertureScientist.com/friends.html">Friends</a> </li>
+				<li>	<a href="http://www.aperturescientist.com/adopt.html">Adopt</a> </li>
+				<li>	<a href="http://www.ApertureScientist.com/wares.html">Wares</a></li>
 		
-				</tr>
-				</table>
-	<style>
-		body	{
-					margin:0px;
-				}
-		#box	{
-					overflow: scroll;
-					display: inline;
-					width:370px;
-					border: 1px black solid;
-					margin: 0px;
-					position: fixed;
-					top: 5px;
-					left: 100px;
-				}
-	</style>
-	<div id="box">
+				</ul>
+				
+		<div id="box">
 	Hamburger Meat Gradient abstraction canvas prestige brick suitcase in a hamper tabular rosa. </div>
 	
 ​  <p align="center"> Ray Them Dan! is a music project that began with a series of recordings done in Los Angeles in 2013. 
 
 		<form action="#" method="post">
-		Color:
-			<input type="color name="color"/>
-			<br/>Date of Birth
-			<input type="date" name="dob" />
-			<br />Time of Appointment:
-			<input type="time" name="timeofAppointment"/>
-			<br />Email:
+		Name:
+			<input type="Name="name"/>
+				<br />Email:
 			<input type="email" name="email"/>
+			<br />Street Address:
+			<input type="street address" name="street address"/>
+			<br />Zip Code:
+			<input type="Zip Code" name="Zip Code"/>
+			<br />Street Address:
+			<input type="street address" name="street address"/>
 			<br />Telephone:
 			<input type="tel" name="telephone" /><br/>
 				Choose your favorite food: <br/>
