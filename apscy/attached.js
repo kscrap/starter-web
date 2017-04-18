@@ -1,0 +1,1 @@
+document.write("This came from the attached Javascript file!");
