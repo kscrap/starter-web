@@ -1,0 +1,43 @@
+<html lang="en">
+	<head>
+				<title>Grade Arrays</title>
+				
+	</head>
+		<body>
+			<script language="javascript" type="text/javascript">
+			
+				var grades = [85, 92, 70, 63, 55, 92, 88, 77, 91, 91];
+				document.write(grades[9]);
+				document.write("<br/>" + grades.length + "<br/>");
+				grades.push(100,63);
+				var poppedOff = grades.pop();
+				
+				
+				for(x in grades)
+				{
+				document.write("iteration: " + x);
+				document.write("<br/>" + grades[x] + "<br/>");
+				
+				}
+				
+				document.write("Popped Off " + poppedOff + "<br/>");
+				
+				
+				var names= ["Phil", "Bob", "Tom", "Oscar", "Mary", "Jane"];
+				names.sort();
+				
+				for(var y =0; y < names.length; y++)
+				
+				{
+					document.write(names[y] + "<br/>");
+				
+				}
+			
+				//w3schools.com/jsref/jsref_obj_array.asp
+			</script>
+		
+		
+		
+				
+		</body>
+</html>

@@ -1,96 +1,17 @@
-<html>
+<html lang="en">
 	<head>
-				<title> Online Inspirational Bot </title>
+				<title> Java Buttons</title>
 				
-		
+			<script language="javascript" type="text/javascript" src="function.js"></script>
 	</head>
-		<body>
+		<body onload="whenPageLoads()">
 			<script language="javascript" type="text/javascript">
-			
-			//	var username="Aperture Scientist";
-			//	alert("Welcome!");
-			//	document.write("Let's see how you're doing in your class!");
-				
-				/*var confirmation = confirm("are you sure you want to exit?);
-				//document.write(confirmation);
-				if(confirmation)
-				{
-				document.write("exiting application");
-				} else
-				{
-				document.write("Cancel Exit");
-				}
-				*/
-			
-				
-				//var age = prompt("what is your age", "");
-				//document.write("You are " + age "years old");
-				
-				var numericalGrade= prompt("What is your grade percentage?");
-				var letterGrade;
-				
-				if(numericalGrade >= 90)
-				{
-				 letterGrade = "A";
-				 }
-				
-				else if(numericalGrade >= 80)
-				{
-				 letterGrade = "B";
-				 }
-				
-				else if(numericalGrade >= 70)
-				{
-				 letterGrade = "C";
-				 }
-				
-				else if(numericalGrade >= 60)
-				{
-				 letterGrade = "D";
-				 }
-				
-				else
-				{
-				 letterGrade = "F";
-				 }
-				 
-				 document.write("<br/>Your grade is " + letterGrade);
-				 document.write("<br/>");
-				switch (letterGrade)
-				{
-				 case "A": 
-					document.write("A is an excellent grade!");
-					break;
-				 case "B":
-					document.write("B is a good grade!");
-					break;
-				case "C":
-					document.write("You just need to work toward a little more improvement");
-					break;
-				case "D":
-					document.write("You're not putting in the required effort to ofercome the challenges you're finding in this class.");
-				case "F":
-					document.write("I hope you aren't as bad at everything else in your life");
-				
-				}
-				
-				
-				/*
-				Comparison Operators
-				== Equivalency
-				=== Equivalent in value and type 
-				1=="1" true
-				1=== "1" false
-				> Greater Than
-				< Less Than
-				>= GT or =
-				<= LT or =
-				!= Not Equal To
-				&& and
-				|| or
-				*/
-				
+		
 			</script>
+		<input type="button" value="press me" onclick="onButtonClick()"/>
+		
+		
+		
 				
 		</body>
 </html>
